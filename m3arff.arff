@@ -1,0 +1,14 @@
+@relation m3
+
+@attribute WAREHOUSE_NO {w2}
+@attribute AVG_REQ numeric
+@attribute AVG_SERVED numeric
+@attribute MISS numeric
+@attribute EFF numeric
+@attribute MON {jan,feb,march,apr}
+
+@data
+w2,560,470,90,84,jan
+w2,860,740,120,86,feb
+w2,890,774,116,87,march
+w2,980,882,98,90,apr

@@ -1,0 +1,14 @@
+@relation ex1
+
+@attribute WAREHOUSE_NO {w1,w2,w3,w4,w5}
+@attribute AVG_REQ numeric
+@attribute AVG_SERVED numeric
+@attribute MISS numeric
+@attribute EFF numeric
+
+@data
+w1,860,757,103,88
+w2,560,470,90,84
+w3,800,688,112,86
+w4,860,670,190,78
+w5,900,855,45,95
